@@ -63,7 +63,6 @@ jobs:
           access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           registry: ${{ secrets.REGISTRY_URI }}
-          cache_from: ${{ secrets.cache }}
           repo: ${{ secrets.ECR_REPO }}
           region: ${{ env.AWS_REGION }}
           auto_tag: true
