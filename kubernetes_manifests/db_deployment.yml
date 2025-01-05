@@ -30,7 +30,7 @@ spec:
         - mountPath: /var/lib/mysql
           name: db-storage
         livenessProbe:
-          exec:
+          exec: 
             command:
             - mysqladmin
             - ping
