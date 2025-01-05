@@ -2,7 +2,7 @@ name: Profile app actions
 on: workflow_dispatch
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: ${{ secrets.ECR_REGISTRY }}
+  ECR_REPOSITORY: ${{ secrets.ECR_REPO }}
   EKS_CLUSTER: project-1
 
 jobs:
